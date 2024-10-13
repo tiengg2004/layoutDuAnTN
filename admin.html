@@ -1,0 +1,284 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="flex">
+   <!-- Sidebar -->
+   <div class="w-1/4 bg-green-700 text-white p-4">
+    <div class="flex items-center mb-4">
+     <img alt="Hotel Logo" class="mr-2" height="50" src="https://storage.googleapis.com/a1aa/image/74oFcDdfYEWpEa3Kqe4AH5Pegdsc9A4dsLmNfcMJ2yAiMfxcC.jpg" width="50"/>
+     <span class="font-bold">
+      KHACH SAN CSR
+     </span>
+    </div>
+    <div class="mb-4">
+     <h2 class="font-bold">
+      Quản Lý Khách Sạn
+     </h2>
+    </div>
+    <ul>
+     <li class="mb-2">
+      <button class="w-full text-left">
+       Quản lý phòng
+      </button>
+     </li>
+     <li class="mb-2">
+      <button class="w-full text-left">
+       Quản lý khách hàng
+      </button>
+     </li>
+     <li class="mb-2">
+      <button class="w-full text-left">
+       Quản lý tài khoản
+      </button>
+     </li>
+     <li class="mb-2">
+      <button class="w-full text-left">
+       Lịch sử đặt phòng
+      </button>
+     </li>
+     <li class="mb-2">
+      <button class="w-full text-left">
+       Thống kê thu nhập
+      </button>
+     </li>
+    </ul>
+   </div>
+   <!-- Main Content -->
+   <div class="w-3/4 p-4">
+    <div class="flex justify-between items-center mb-4">
+     <div class="flex items-center space-x-4">
+      <a class="text-gray-700" href="#">
+       Thuê phòng khách sạn
+      </a>
+      <a class="text-gray-700" href="#">
+       Dương Doãn Duy
+      </a>
+      <a class="text-gray-700" href="#">
+       Lịch sử thuê phòng
+      </a>
+     </div>
+     <div class="flex items-center space-x-2">
+      <i class="fas fa-user-circle text-2xl text-gray-700">
+      </i>
+     </div>
+    </div>
+    <div class="border p-4 mb-4">
+     <div class="mb-4">
+      <label class="block mb-2">
+       Tên đăng nhập:
+      </label>
+      <input class="w-full p-2 border bg-green-400" type="text" value="tranvanteo"/>
+     </div>
+     <div class="mb-4">
+      <label class="block mb-2">
+       Ngày sinh:
+      </label>
+      <input class="w-full p-2 border bg-green-400" type="text" value="12/09/2003"/>
+     </div>
+     <div class="mb-4">
+      <label class="block mb-2">
+       Loại tài khoản:
+      </label>
+      <select class="w-full p-2 border bg-green-400">
+       <option value="1">
+        1
+       </option>
+      </select>
+     </div>
+    </div>
+    <div class="flex space-x-4 mb-4">
+     <button class="bg-green-700 text-white px-4 py-2">
+      Thêm
+     </button>
+     <button class="bg-green-700 text-white px-4 py-2">
+      Cập nhật
+     </button>
+     <button class="bg-green-700 text-white px-4 py-2">
+      Xóa
+     </button>
+     <div class="flex items-center">
+      <label class="mr-2">
+       Tìm kiếm
+      </label>
+      <input class="p-2 border" type="text"/>
+     </div>
+    </div>
+    <div>
+     <h2 class="font-bold mb-2">
+      Danh sách tài khoản
+     </h2>
+     <table class="w-full border-collapse">
+      <thead>
+       <tr class="bg-green-700 text-white">
+        <th class="border p-2">
+         Mã tài khoản
+        </th>
+        <th class="border p-2">
+         Tên đăng nhập
+        </th>
+        <th class="border p-2">
+         Mật khẩu
+        </th>
+        <th class="border p-2">
+         Loại tài khoản
+        </th>
+        <th class="border p-2">
+         Mã khách hàng
+        </th>
+        <th class="border p-2">
+         Mã nhân viên
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr class="bg-white">
+        <td class="border p-2">
+         2023042001
+        </td>
+        <td class="border p-2">
+         tranvanteo
+        </td>
+        <td class="border p-2">
+         0234383234
+        </td>
+        <td class="border p-2">
+         1
+        </td>
+        <td class="border p-2">
+         NV001
+        </td>
+        <td class="border p-2">
+         null
+        </td>
+       </tr>
+       <tr class="bg-green-400">
+        <td class="border p-2">
+         2023042001
+        </td>
+        <td class="border p-2">
+         tranvanteo
+        </td>
+        <td class="border p-2">
+         0792782033
+        </td>
+        <td class="border p-2">
+         1
+        </td>
+        <td class="border p-2">
+         NV001
+        </td>
+        <td class="border p-2">
+         null
+        </td>
+       </tr>
+       <tr class="bg-white">
+        <td class="border p-2">
+         2023042001
+        </td>
+        <td class="border p-2">
+         tranvanteo
+        </td>
+        <td class="border p-2">
+         0234383234
+        </td>
+        <td class="border p-2">
+         1
+        </td>
+        <td class="border p-2">
+         NV001
+        </td>
+        <td class="border p-2">
+         null
+        </td>
+       </tr>
+       <tr class="bg-green-400">
+        <td class="border p-2">
+         2023042001
+        </td>
+        <td class="border p-2">
+         tranvanteo
+        </td>
+        <td class="border p-2">
+         0792782033
+        </td>
+        <td class="border p-2">
+         1
+        </td>
+        <td class="border p-2">
+         NV001
+        </td>
+        <td class="border p-2">
+         null
+        </td>
+       </tr>
+       <tr class="bg-white">
+        <td class="border p-2">
+         2023042001
+        </td>
+        <td class="border p-2">
+         tranvanteo
+        </td>
+        <td class="border p-2">
+         0234383234
+        </td>
+        <td class="border p-2">
+         1
+        </td>
+        <td class="border p-2">
+         NV001
+        </td>
+        <td class="border p-2">
+         null
+        </td>
+       </tr>
+       <tr class="bg-green-400">
+        <td class="border p-2">
+         2023042001
+        </td>
+        <td class="border p-2">
+         tranvanteo
+        </td>
+        <td class="border p-2">
+         0792782033
+        </td>
+        <td class="border p-2">
+         1
+        </td>
+        <td class="border p-2">
+         NV001
+        </td>
+        <td class="border p-2">
+         null
+        </td>
+       </tr>
+       <tr class="bg-green-400">
+        <td class="border p-2">
+         2023042001
+        </td>
+        <td class="border p-2">
+         tranvanteo
+        </td>
+        <td class="border p-2">
+         0792782033
+        </td>
+        <td class="border p-2">
+         1
+        </td>
+        <td class="border p-2">
+         NV001
+        </td>
+        <td class="border p-2">
+         null
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
